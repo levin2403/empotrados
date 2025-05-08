@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  #data-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .sensors-data {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 10px;
+
+    background: linear-gradient(to right, #6dbdd3, #3f87de);
+    margin-right: 10px;
+    border-color: black;
+    border-radius: 10px;
+  }
+  
+  .relays-data {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 10px;
+
+    background: linear-gradient(to right, #f9c74f, #9dd275);
+    margin-right: 10px;
+    border-color: black;
+    border-radius: 10px;
+  }
+
+  .tbl-data-parameters{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 10px;
+
+    background: linear-gradient(to right, #ea7474, #ef3030);
+    margin-right: 10px;
+    border-color: black;
+    border-radius: 10px;
+  }
+
+  p {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.3em;
+  }
+
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.3em;
+    cursor: pointer;
+    background-color: #f45151;
+  }
+
+  button:hover {
+    transition: ease-in 0.3s;
+    scale: 1.1;
+    background-color: #f13737;
+  }
+  

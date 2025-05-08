@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Estación Meteorológica</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Estación Meteorológica Casera</h1>
+
+  <section id="data-content">
+    <!--Aquí se mostrarán los datos de los sendores de la estación meteorológica-->
+    <div class="sensors-data">
+      <h2>Datos de los sensores</h2>
+        <p>🌡️ Temperatura: <span id="temperatura">--</span> °C</p>
+        <p>💧 Humedad: <span id="humedad">--</span> %</p>
+        <p>🔆 Luz: <span id="luz">--</span> lux</p>
+    </div>
+    <!--Aquí se mostrarán los datos de los relevadores de la estación meteorológica-->
+    <div class="relays-data">
+      <h2>Datos de los relevadores</h2>
+        <p>⚡ Relevador 1: <span id="relevador01">--</span></p>
+        <p>⚡ Relevador 2: <span id="relevador02">--</span></p>
+    </div>
+    <div class="tbl-data-parameters">
+      <h2>Parámetros de Sensores</h2>
+        <table id="tbl-data">
+            <thead>
+                <tr>
+                    <th>Parametro</th>
+                    <th>Minimo</th>
+                    <th>Maximo</th>
+                </tr>
+            </thead>
+            <tbody id="tbl-body">
+                <!-- Aquí se llenarán los datos de la tabla -->
+            </tbody>
+        </table>
+
+    </div>  
+  </section>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
