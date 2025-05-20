@@ -11,13 +11,13 @@ class MainApp(tk.Tk):
     db = DBHandlerUI(
         host="localhost",
         user="root",
-        password="root",
+        password="Saymyname15",
         database="empotrados"
     )
 
     # instance of the ApiClientUI class to interact with the ESP32 API
     api = ApiClientUI(
-        base_url="http://192.168.1.111" 
+        base_url="http://192.168.1.111/" 
     )
 
     # Constructor of the MainApp class
@@ -122,6 +122,7 @@ class MainApp(tk.Tk):
                 return
 
         self.api.establishParameters(parameters)
+        
         # Show a message box to confirm that the parameters were sent
         messagebox.showinfo("Éxito", "Parámetros enviados correctamente.")
 
