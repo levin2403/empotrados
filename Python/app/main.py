@@ -13,12 +13,12 @@ def main():
     db = DBHandler(
         host="localhost",
         user="root",
-        password="Saymyname15",
+        password="root",
         database="empotrados"
     )
     
     api = ApiClient(
-        base_url="http://<ip_del_esp32>"  # que no se te olvide cambiarlo kevin
+        base_url="http://192.168.1.111"  # que no se te olvide cambiarlo kevin
     )
 
     seconds_interval = 10  # tiempo entre consultas
